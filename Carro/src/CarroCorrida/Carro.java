@@ -1,10 +1,12 @@
 package CarroCorrida;
 
 public class Carro {
-	public Carro (Integer numeroIdentificacao, Double velocidadeMaxima) {
+	public Carro (Integer numeroIdentificacao) {
 		this.numeroIdentificacao = numeroIdentificacao;
-		this.velocidadeMaxima = velocidadeMaxima;
 		}
+	public Carro(Double velocidadeMaxima) {
+		this.velocidadeMaxima = velocidadeMaxima;
+	}
 		private Integer numeroIdentificacao;
 		private Double velocidadeAtual = 0.0;
 		private Double velocidadeMaxima;
