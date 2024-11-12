@@ -3,8 +3,8 @@ package CarroCorrida;
 public class Corrida {
 
 	public static void main(String[] args) {
-		Carro carroEquipeVelocidade = new Carro(103, 100.0);
-		Carro carroEquipeTrapaceiros = new Carro(155, 100.0);
+		Carro carroEquipeVelocidade = new Carro(103);
+		Carro carroEquipeTrapaceiros = new Carro(155);
 		
 		Piloto pilotoEquipeVelocidade = new Piloto();
 		Piloto pilotoEquipeTrapaceiros = new Piloto();
