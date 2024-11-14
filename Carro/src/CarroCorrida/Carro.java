@@ -13,6 +13,10 @@ public class Carro {
         this.velocidadeAtual = 0.0;
         this.motor = motor;
     }
+    public Carro(Double velocidadeMaxima) {
+        this.velocidadeMaxima = velocidadeMaxima;
+
+    }
  
     public void ligar() {
         System.out.println("Carro Ligado! Vruuummmmmmm!!");

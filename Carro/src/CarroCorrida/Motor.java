@@ -11,15 +11,15 @@ public class Motor {
 	public void setPotencia(Integer potencia) {
 		if (potencia > 100) {
 			this.potencia = 100;
-		} else if (potencia < 0) {
-			this.potencia = 0;
+		} else if (potencia < 1) {
+			this.potencia = 1;
 		} else {
 			this.potencia = potencia;
 		}
 	}
 
 	public Integer getPotencia() {
-		return potencia;
+		return this.potencia;
 	}
 
 	public void mostrarPotencia() {
